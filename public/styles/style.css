@@ -1,0 +1,97 @@
+/* GENERAL */
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+@font-face {
+  font-family:"Code";
+  src: url("/fonts/Code7X5Regular-ypBE.ttf");
+  font-weight:normal;
+  font-style:normal;
+}
+
+main {
+  font-family: Code;
+  color: #149414;
+  background-color:#000000;
+  min-height:100vh;
+}
+
+/* LANDING */
+
+.landing_main {
+  max-height:100vh !important;
+}
+.cont {
+  width:80%;
+  margin:auto;
+}
+
+.featured {
+  /*background:#ffffff !important;
+  color:#000000;
+  border-radius:12px;
+  font-family: sans-serif;
+  */
+}
+
+.featured img {
+  position:absolute;
+  top:-180px;
+}
+
+.recent-post{
+  font-family:Code;
+  color: #149414;
+}
+
+.featured .card-title {
+  font-family: Code;
+}
+
+.featured .more {
+  margin-top:20px !important;
+  font-family: Code;
+  color: #149414;
+}
+
+.featured .more:hover {
+  font-family: Code;
+  background-color: #149414;
+  color:#ffffff;
+}
+
+/* NEW POST */
+.post-submit {
+  background-color: #149414 !important;
+  border: none;
+}
+
+/* POSTS */
+.post-main {
+  min-height:100vh;
+}
+
+.post-main .row {
+  min-height:100vh;
+  width:100%;
+}
+
+.post-main .row .col-md-8 {
+  background-color:#f7f8fd;
+  color:black;
+}
+
+.post-main .blog-summary .col-md-8 {
+  background-color:#ffffff;
+}
+
+.post-main .blog_card {
+  overflow-y: hidden;
+}
+/* SHOW POST */
+.post-main .side-nav {
+  position:sticky;
+}
